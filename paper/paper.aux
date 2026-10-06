@@ -1,0 +1,83 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\citation{socher2013}
+\citation{castagnos2022}
+\citation{keung2020}
+\citation{socher2013}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{castagnos2022}
+\citation{hou2016}
+\citation{keung2020}
+\citation{guo2017}
+\citation{muller2019}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Ordered sentiment labels and losses}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Calibration and decisions}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Common representation and classifier}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Distance-penalized cross-entropy}{2}{subsection.3.2}\protected@file@percent }
+\newlabel{eq:dp}{{2}{2}{Distance-penalized cross-entropy}{equation.3.2}{}}
+\citation{castagnos2022}
+\newlabel{eq:distortion}{{3}{3}{Distance-penalized cross-entropy}{equation.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Baselines and controls}{3}{subsection.3.3}\protected@file@percent }
+\newlabel{eq:oll}{{4}{3}{Baselines and controls}{equation.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Metrics}{3}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Data preparation and partitions}{3}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Tuning and optimization}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Uncertainty and secondary controls}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{4}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Ordinal gains are modest and not dominant}{4}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Calibration changes with the training budget}{4}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Full-budget test results: mean $\pm $ sample standard deviation across three runs. Accuracy, macro-F1, severe-error rate, and 15-bin ECE are percentages. Severe errors span at least two levels. CE median uses the CE probabilities but changes the action. Zero variability reflects identical deterministic fits/settings, not independent replication.\relax }}{5}{table.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:main}{{1}{5}{Full-budget test results: mean $\pm $ sample standard deviation across three runs. Accuracy, macro-F1, severe-error rate, and 15-bin ECE are percentages. Severe errors span at least two levels. CE median uses the CE probabilities but changes the action. Zero variability reflects identical deterministic fits/settings, not independent replication.\relax }{table.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Ordinal prediction and calibration trade-offs computed from saved results. Left: mean accuracy versus MAE for two training budgets. Each plotted point is a run-mean; overlapping scaled decisions are omitted. Right: mean 15-bin ECE with sample standard-deviation bars. A lower ordinal error does not ensure lower calibration error at both budgets.\relax }}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:tradeoff}{{1}{5}{Ordinal prediction and calibration trade-offs computed from saved results. Left: mean accuracy versus MAE for two training budgets. Each plotted point is a run-mean; overlapping scaled decisions are omitted. Right: mean 15-bin ECE with sample standard-deviation bars. A lower ordinal error does not ensure lower calibration error at both budgets.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Paired evidence and its scope}{5}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Standalone OLL has a probability failure}{5}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Low-budget results using 2,000 training examples. Run variation now includes sampled training data and development splits. Percent conventions match Table\nobreakspace  {}\ref  {tab:main}. The confidence-calibration hypothesis does not hold uniformly.\relax }}{6}{table.caption.4}\protected@file@percent }
+\newlabel{tab:low}{{2}{6}{Low-budget results using 2,000 training examples. Run variation now includes sampled training data and development splits. Percent conventions match Table~\ref {tab:main}. The confidence-calibration hypothesis does not hold uniformly.\relax }{table.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Full-budget reliability diagrams and confidence counts for seed 42. Only nonempty equal-width bins are plotted. Positive temperatures preserve argmax predictions; they can improve NLL while changing binned ECE in either direction.\relax }}{6}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:reliability}{{2}{6}{Full-budget reliability diagrams and confidence counts for seed 42. Only nonempty equal-width bins are plotted. Positive temperatures preserve argmax predictions; they can improve NLL while changing binned ECE in either direction.\relax }{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Full-budget DP2 minus reference: mean paired difference and conditional 95\% bootstrap bounds. Accuracy and severe-error differences are percentage points; MAE and NLL use their original scales. Fitted models are held fixed. The cumulative comparison is secondary.\relax }}{6}{table.caption.6}\protected@file@percent }
+\newlabel{tab:bootstrap}{{3}{6}{Full-budget DP2 minus reference: mean paired difference and conditional 95\% bootstrap bounds. Accuracy and severe-error differences are percentage points; MAE and NLL use their original scales. Fitted models are held fixed. The cumulative comparison is secondary.\relax }{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Secondary controls}{6}{subsection.5.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Row-normalized full-budget test confusion matrices for seed 42. DP2 makes somewhat fewer large errors but also fewer extreme-label predictions. OLL predicts only interior levels. The color scale and labels are shared; each row refers to the true class.\relax }}{7}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:confusion}{{3}{7}{Row-normalized full-budget test confusion matrices for seed 42. DP2 makes somewhat fewer large errors but also fewer extreme-label predictions. OLL predicts only interior levels. The color scale and labels are shared; each row refers to the true class.\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{7}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Limitations and Threats to Validity}{7}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Dataset and representation.}{7}{section*.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Labels and error costs.}{7}{section*.10}\protected@file@percent }
+\bibstyle{plain}
+\bibdata{references}
+\bibcite{castagnos2022}{1}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Secondary full-budget controls on the original saved splits. CE-MAE changes CE selection to MAE; DP2-NLL changes penalty selection to NLL; DP2-fixed uses $\lambda =0.5$; OLL-reg tunes its own regularization. These controls address confounds without replacing the primary protocol.\relax }}{8}{table.caption.8}\protected@file@percent }
+\newlabel{tab:controls}{{4}{8}{Secondary full-budget controls on the original saved splits. CE-MAE changes CE selection to MAE; DP2-NLL changes penalty selection to NLL; DP2-fixed uses $\lambda =0.5$; OLL-reg tunes its own regularization. These controls address confounds without replacing the primary protocol.\relax }{table.caption.8}{}}
+\@writefile{toc}{\contentsline {paragraph}{Selection and optimization.}{8}{section*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Uncertainty estimates.}{8}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Reproducibility and practical cost.}{8}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{8}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Reproduction and Additional Diagnostics}{8}{appendix.A}\protected@file@percent }
+\bibcite{guo2017}{2}
+\bibcite{hou2016}{3}
+\bibcite{keung2020}{4}
+\bibcite{muller2019}{5}
+\bibcite{socher2013}{6}
+\gdef \@abspage@last{9}

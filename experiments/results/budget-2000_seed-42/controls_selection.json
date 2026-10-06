@@ -1,0 +1,25 @@
+{
+  "choices": {
+    "CE-MAE": {
+      "C": 4
+    },
+    "DP2-NLL": {
+      "C": 1,
+      "kind": "distance",
+      "power": 2,
+      "lam": 2.0
+    },
+    "DP2-fixed": {
+      "C": 1,
+      "kind": "distance",
+      "power": 2,
+      "lam": 0.5
+    },
+    "OLL-reg": {
+      "C": 0.01,
+      "kind": "oll",
+      "power": 1
+    }
+  },
+  "OLL_temperature": 19.99989930298651
+}

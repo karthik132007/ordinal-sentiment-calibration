@@ -1,0 +1,3 @@
+# Execution amendments
+
+6 October 2026, numerical repair: the full-budget C=16 cross-entropy candidate reached the 400-iteration limit with maximum gradient about 6e-6, above the predeclared 1e-6 gradient tolerance. Training stopped before that run's test evaluation. Keep the objective, feature pipeline, C grid, tolerance, and selection rules unchanged. Continue an iteration-limited solution for up to 1,600 extra L-BFGS iterations. Record whether continuation occurred, total iterations, and final gradient. Previously converged fits need no rerun. The original failure is retained as `budget-full_seed-42/failed_candidate.json` and `initial_run_stdout.log`. This amendment concerns numerical convergence, not test-based performance optimization.

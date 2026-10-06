@@ -1,0 +1,42 @@
+[
+  {
+    "gradient": {
+      "kind": "ce"
+    },
+    "max_abs_error": 3.399608372589569e-11
+  },
+  {
+    "gradient": {
+      "kind": "distance",
+      "lam": 0.5,
+      "power": 1
+    },
+    "max_abs_error": 3.974343423807092e-11
+  },
+  {
+    "gradient": {
+      "kind": "distance",
+      "lam": 2,
+      "power": 2
+    },
+    "max_abs_error": 8.234260495676438e-11
+  },
+  {
+    "gradient": {
+      "kind": "oll",
+      "power": 1
+    },
+    "max_abs_error": 3.770009304737698e-11
+  },
+  {
+    "gradient": {
+      "kind": "ce",
+      "smoothing": 0.1
+    },
+    "max_abs_error": 3.651529079107263e-11
+  },
+  {
+    "metrics": "passed",
+    "split_audit": "passed"
+  }
+]

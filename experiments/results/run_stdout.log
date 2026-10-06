@@ -1,0 +1,60 @@
+RESUME budget-2000_seed-42
+RESUME budget-2000_seed-123
+RESUME budget-2000_seed-999
+START budget-full_seed-42
+  CE {'C': 1}: val MAE=0.8673 NLL=1.3952
+  CE {'C': 4}: val MAE=0.8982 NLL=1.4530
+  CE {'C': 16}: val MAE=0.9073 NLL=1.6902
+  NB {'alpha': 0.1}: val MAE=0.8455 NLL=1.4352
+  NB {'alpha': 1.0}: val MAE=0.8255 NLL=1.4323
+  NB {'alpha': 10.0}: val MAE=0.9018 NLL=1.5337
+  Cumulative {'C': 1, 'monotonic_repair': 'cumulative_minimum'}: val MAE=0.8055 NLL=1.3799
+  DP1 {'C': 1, 'lambda': 0.1, 'power': 1}: val MAE=0.8527 NLL=1.3934
+  DP1 {'C': 1, 'lambda': 0.5, 'power': 1}: val MAE=0.8473 NLL=1.3875
+  DP1 {'C': 1, 'lambda': 1.0, 'power': 1}: val MAE=0.8418 NLL=1.3823
+  DP1 {'C': 1, 'lambda': 2.0, 'power': 1}: val MAE=0.8491 NLL=1.3771
+  DP2 {'C': 1, 'lambda': 0.1, 'power': 2}: val MAE=0.8527 NLL=1.3934
+  DP2 {'C': 1, 'lambda': 0.5, 'power': 2}: val MAE=0.8491 NLL=1.3873
+  DP2 {'C': 1, 'lambda': 1.0, 'power': 2}: val MAE=0.8400 NLL=1.3814
+  DP2 {'C': 1, 'lambda': 2.0, 'power': 2}: val MAE=0.8273 NLL=1.3736
+  OLL {'C': 1, 'alpha': 1, 'distance': 'raw'}: val MAE=0.8164 NLL=10.6551
+  LS {'C': 1, 'smoothing': 0.1}: val MAE=0.8655 NLL=1.4031
+DONE budget-full_seed-42 in 29.4s
+START budget-full_seed-123
+  CE {'C': 1}: val MAE=0.8727 NLL=1.3956
+  CE {'C': 4}: val MAE=0.8945 NLL=1.4365
+  CE {'C': 16}: val MAE=0.8945 NLL=1.6633
+  NB {'alpha': 0.1}: val MAE=0.8309 NLL=1.4175
+  NB {'alpha': 1.0}: val MAE=0.8364 NLL=1.4314
+  NB {'alpha': 10.0}: val MAE=0.9273 NLL=1.5349
+  Cumulative {'C': 1, 'monotonic_repair': 'cumulative_minimum'}: val MAE=0.8236 NLL=1.3837
+  DP1 {'C': 1, 'lambda': 0.1, 'power': 1}: val MAE=0.8582 NLL=1.3938
+  DP1 {'C': 1, 'lambda': 0.5, 'power': 1}: val MAE=0.8491 NLL=1.3877
+  DP1 {'C': 1, 'lambda': 1.0, 'power': 1}: val MAE=0.8418 NLL=1.3822
+  DP1 {'C': 1, 'lambda': 2.0, 'power': 1}: val MAE=0.8436 NLL=1.3763
+  DP2 {'C': 1, 'lambda': 0.1, 'power': 2}: val MAE=0.8582 NLL=1.3939
+  DP2 {'C': 1, 'lambda': 0.5, 'power': 2}: val MAE=0.8491 NLL=1.3879
+  DP2 {'C': 1, 'lambda': 1.0, 'power': 2}: val MAE=0.8455 NLL=1.3822
+  DP2 {'C': 1, 'lambda': 2.0, 'power': 2}: val MAE=0.8291 NLL=1.3745
+  OLL {'C': 1, 'alpha': 1, 'distance': 'raw'}: val MAE=0.7855 NLL=10.6429
+  LS {'C': 1, 'smoothing': 0.1}: val MAE=0.8727 NLL=1.4034
+DONE budget-full_seed-123 in 27.4s
+START budget-full_seed-999
+  CE {'C': 1}: val MAE=0.8145 NLL=1.3650
+  CE {'C': 4}: val MAE=0.8036 NLL=1.3992
+  CE {'C': 16}: val MAE=0.8327 NLL=1.6209
+  NB {'alpha': 0.1}: val MAE=0.8000 NLL=1.3905
+  NB {'alpha': 1.0}: val MAE=0.7782 NLL=1.4166
+  NB {'alpha': 10.0}: val MAE=0.8745 NLL=1.5319
+  Cumulative {'C': 1, 'monotonic_repair': 'cumulative_minimum'}: val MAE=0.7655 NLL=1.3517
+  DP1 {'C': 1, 'lambda': 0.1, 'power': 1}: val MAE=0.8091 NLL=1.3628
+  DP1 {'C': 1, 'lambda': 0.5, 'power': 1}: val MAE=0.7927 NLL=1.3556
+  DP1 {'C': 1, 'lambda': 1.0, 'power': 1}: val MAE=0.7873 NLL=1.3488
+  DP1 {'C': 1, 'lambda': 2.0, 'power': 1}: val MAE=0.7945 NLL=1.3407
+  DP2 {'C': 1, 'lambda': 0.1, 'power': 2}: val MAE=0.8091 NLL=1.3630
+  DP2 {'C': 1, 'lambda': 0.5, 'power': 2}: val MAE=0.7945 NLL=1.3563
+  DP2 {'C': 1, 'lambda': 1.0, 'power': 2}: val MAE=0.7818 NLL=1.3496
+  DP2 {'C': 1, 'lambda': 2.0, 'power': 2}: val MAE=0.7745 NLL=1.3405
+  OLL {'C': 1, 'alpha': 1, 'distance': 'raw'}: val MAE=0.7636 NLL=10.5753
+  LS {'C': 1, 'smoothing': 0.1}: val MAE=0.8109 NLL=1.3760
+DONE budget-full_seed-999 in 25.7s

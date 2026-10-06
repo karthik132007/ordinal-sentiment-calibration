@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "metric_rows_recomputed": 108,
+  "saved_models_replayed": 66,
+  "maximum_probability_replay_difference": 0.0,
+  "independent_metrics": [
+    "accuracy",
+    "macro_f1",
+    "mae",
+    "severe",
+    "nll",
+    "brier"
+  ],
+  "numeric_macros_used": 41,
+  "citations_resolve": [
+    "castagnos2022",
+    "guo2017",
+    "hou2016",
+    "keung2020",
+    "muller2019",
+    "socher2013"
+  ],
+  "prediction_hashes": {
+    "experiments/results/budget-2000_seed-123/predictions.npz": "98a1b102f70231607a65b2a4bd6b4d66112fe8a75603380bb8dc5283aa7e09fb",
+    "experiments/results/budget-2000_seed-123/controls_predictions.npz": "46aee29aafb02f7cb391c0b4afbae351e00027d7f486446509a1af83fb96fb50",
+    "experiments/results/budget-2000_seed-42/predictions.npz": "424b3665b8b4a0d1c81a682c69652c840b2007516fd7d957795b9e0fc7919c98",
+    "experiments/results/budget-2000_seed-42/controls_predictions.npz": "aa2df9ccd9dc41806cc3405d76b4ca3df7ff77f31695ad122fa7415c1163f6db",
+    "experiments/results/budget-2000_seed-999/predictions.npz": "2d3a8c421b76897ada047f12f9add436b0455ffe3cf2700cd86f617081ec6933",
+    "experiments/results/budget-2000_seed-999/controls_predictions.npz": "f619ab20d54509b007a355b3b23a7527c2ae6db2f26eee63c30ae2d30efcb74f",
+    "experiments/results/budget-full_seed-123/predictions.npz": "a3c8098c725d9cf6118806028529884b17b89fae4b9fc4a6e2dd728150074455",
+    "experiments/results/budget-full_seed-123/controls_predictions.npz": "5cdd21fa908a3fb90f6e4835b66aca1b383258e4e85079e2e6ad3229170a006a",
+    "experiments/results/budget-full_seed-42/predictions.npz": "01f2e0edaaeab20f4370815a78b73fa542b9ab5cf6f89798732b3b0eca4a231f",
+    "experiments/results/budget-full_seed-42/controls_predictions.npz": "60faf795de48da141f0101f34b4a625551be1dbe0547eed5839e13415308b7b8",
+    "experiments/results/budget-full_seed-999/predictions.npz": "7c2833b30f432d2aba0b665014bd76c571f286634305d8f6610eef3b2533e175",
+    "experiments/results/budget-full_seed-999/controls_predictions.npz": "87f92f5b46265655eb5ae235597848b55c90dda7f1814f298f1d63ed3956f068"
+  },
+  "pdf_pages": 9,
+  "pdf_sha256": "b39493dcd2158be37bf95e5553a36caf3827544228c6a8dedeab343b4c3bb60d",
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "latest_render_identical_to_inspected": true,
+  "reproduction_command_passed": true,
+  "latex_overfull_boxes": 0,
+  "latex_unresolved_references": 0
+}

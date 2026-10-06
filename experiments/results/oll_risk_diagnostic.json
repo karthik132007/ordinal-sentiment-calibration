@@ -1,0 +1,32 @@
+{
+  "description": "Analytic OLL-alpha=1 simplex optimum for a constant feature vector with empirical training priors. This is a risk diagnostic, not a second dataset or classifier test result.",
+  "train_priors": [
+    0.12776931192122845,
+    0.2595240886179815,
+    0.19013011370296565,
+    0.2717149220489978,
+    0.15086156370882664
+  ],
+  "expected_absolute_cost": [
+    2.0583753370062126,
+    1.3139139608486696,
+    1.0885007619270894,
+    1.2433477904114407,
+    1.9416246629937874
+  ],
+  "lagrange_multiplier": 1.8228812565935997,
+  "optimal_OLL_probabilities": [
+    0.0,
+    0.27921034017104995,
+    0.4028679827663816,
+    0.31792167706256824,
+    0.0
+  ],
+  "CE_optimum": [
+    0.12776931192122845,
+    0.2595240886179815,
+    0.19013011370296565,
+    0.2717149220489978,
+    0.15086156370882664
+  ]
+}

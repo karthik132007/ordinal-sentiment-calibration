@@ -1,0 +1,30 @@
+{
+  "budget": "full",
+  "seed": 42,
+  "family": "CE",
+  "params": {
+    "C": 16
+  },
+  "selection": {
+    "accuracy": 0.3472727272727273,
+    "macro_f1": 0.3339559507500541,
+    "mae": 0.9072727272727272,
+    "severe": 0.20363636363636364,
+    "nll": 1.6902470025756808,
+    "brier": 0.8387079764916342,
+    "rps": 0.1490912815823415,
+    "central_fraction": 0.15818181818181817,
+    "ece5": 0.26875691480132097,
+    "ece10": 0.26875691480132097,
+    "ece15": 0.26875691480132097,
+    "ece30": 0.2690472367167334
+  },
+  "fit": {
+    "success": false,
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "iterations": 400,
+    "objective": 0.4723877185758371,
+    "max_abs_gradient": 5.973124870678105e-06,
+    "fit_seconds": 4.515122804999919
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "method": "DP2",
+    "reference": "CE",
+    "metric": "mae",
+    "difference": -0.02669683257918552,
+    "low": -0.04073529411764706,
+    "high": -0.012669683257918552
+  },
+  {
+    "method": "DP2",
+    "reference": "CE",
+    "metric": "severe",
+    "difference": -0.016289592760180997,
+    "low": -0.023076923076923078,
+    "high": -0.009954751131221719
+  },
+  {
+    "method": "DP2",
+    "reference": "CE",
+    "metric": "nll",
+    "difference": -0.016557406150486256,
+    "low": -0.02058553066334652,
+    "high": -0.012292583265287796
+  },
+  {
+    "method": "DP2",
+    "reference": "CE",
+    "metric": "accuracy",
+    "difference": 0.0027149321266968325,
+    "low": -0.005429864253393665,
+    "high": 0.01085972850678733
+  },
+  {
+    "method": "DP2",
+    "reference": "CE+TS",
+    "metric": "mae",
+    "difference": -0.02669683257918552,
+    "low": -0.04072398190045249,
+    "high": -0.013122171945701358
+  },
+  {
+    "method": "DP2",
+    "reference": "CE+TS",
+    "metric": "severe",
+    "difference": -0.016289592760180997,
+    "low": -0.022635746606334838,
+    "high": -0.009954751131221719
+  },
+  {
+    "method": "DP2",
+    "reference": "CE+TS",
+    "metric": "nll",
+    "difference": -0.009740046096376605,
+    "low": -0.012986383871521016,
+    "high": -0.006571746487725237
+  },
+  {
+    "method": "DP2",
+    "reference": "CE+TS",
+    "metric": "accuracy",
+    "difference": 0.0027149321266968325,
+    "low": -0.005429864253393665,
+    "high": 0.011312217194570135
+  },
+  {
+    "method": "DP2",
+    "reference": "Cumulative",
+    "metric": "mae",
+    "difference": 0.019909502262443438,
+    "low": 0.004524886877828055,
+    "high": 0.03529411764705882
+  },
+  {
+    "method": "DP2",
+    "reference": "Cumulative",
+    "metric": "severe",
+    "difference": 0.01493212669683258,
+    "low": 0.007692307692307693,
+    "high": 0.02262443438914027
+  },
+  {
+    "method": "DP2",
+    "reference": "Cumulative",
+    "metric": "nll",
+    "difference": -0.0114046348619706,
+    "low": -0.018454179139849303,
+    "high": -0.004486288485875185
+  },
+  {
+    "method": "DP2",
+    "reference": "Cumulative",
+    "metric": "accuracy",
+    "difference": -0.0013574660633484162,
+    "low": -0.01085972850678733,
+    "high": 0.008144796380090498
+  }
+]

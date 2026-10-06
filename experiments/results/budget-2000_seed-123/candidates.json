@@ -1,0 +1,518 @@
+[
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "CE",
+    "params": {
+      "C": 1
+    },
+    "selection": {
+      "accuracy": 0.32,
+      "macro_f1": 0.23554146400320328,
+      "mae": 1.0218181818181817,
+      "severe": 0.26545454545454544,
+      "nll": 1.495269494959949,
+      "brier": 0.7555412869034513,
+      "rps": 0.16126132549572345,
+      "central_fraction": 0.07272727272727272,
+      "ece5": 0.020609927169471944,
+      "ece10": 0.024613003209308974,
+      "ece15": 0.025319702709813027,
+      "ece30": 0.04292716895358659
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 77,
+      "objective": 1.2329608822719098,
+      "max_abs_gradient": 3.813429074254353e-06,
+      "fit_seconds": 0.5440215389999139
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "CE",
+    "params": {
+      "C": 4
+    },
+    "selection": {
+      "accuracy": 0.3145454545454546,
+      "macro_f1": 0.2777837185628104,
+      "mae": 1.0363636363636364,
+      "severe": 0.2672727272727273,
+      "nll": 1.5358739768364422,
+      "brier": 0.7786672127260059,
+      "rps": 0.15858549340240127,
+      "central_fraction": 0.14909090909090908,
+      "ece5": 0.11832245701020176,
+      "ece10": 0.11832245701020172,
+      "ece15": 0.11839101482323774,
+      "ece30": 0.1254241027237276
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 129,
+      "objective": 0.8348969589408579,
+      "max_abs_gradient": 1.153485929722531e-06,
+      "fit_seconds": 0.8426494979999006
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "CE",
+    "params": {
+      "C": 16
+    },
+    "selection": {
+      "accuracy": 0.3090909090909091,
+      "macro_f1": 0.28351766758713753,
+      "mae": 1.0581818181818181,
+      "severe": 0.26545454545454544,
+      "nll": 1.7080739838205774,
+      "brier": 0.8482702860696872,
+      "rps": 0.16747877459594643,
+      "central_fraction": 0.17454545454545456,
+      "ece5": 0.23535424369249794,
+      "ece10": 0.23535424369249797,
+      "ece15": 0.23613293425510617,
+      "ece30": 0.23613293425510617
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 185,
+      "objective": 0.4408244944088518,
+      "max_abs_gradient": 7.701955697276328e-07,
+      "fit_seconds": 0.8947613789998741
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "NB",
+    "params": {
+      "alpha": 0.1
+    },
+    "selection": {
+      "accuracy": 0.3527272727272727,
+      "macro_f1": 0.30560436307239147,
+      "mae": 0.9945454545454545,
+      "severe": 0.25272727272727274,
+      "nll": 1.5715185311196018,
+      "brier": 0.7920582555877819,
+      "rps": 0.15943376961849554,
+      "central_fraction": 0.14363636363636365,
+      "ece5": 0.12979360633245682,
+      "ece10": 0.1320800817581216,
+      "ece15": 0.13054913388727762,
+      "ece30": 0.1368631955152391
+    },
+    "fit": {
+      "fit_seconds": 0.002356804000100965
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "NB",
+    "params": {
+      "alpha": 1.0
+    },
+    "selection": {
+      "accuracy": 0.3490909090909091,
+      "macro_f1": 0.189295685165129,
+      "mae": 0.990909090909091,
+      "severe": 0.25272727272727274,
+      "nll": 1.5192874381947237,
+      "brier": 0.7647278255787426,
+      "rps": 0.1644521570866156,
+      "central_fraction": 0.0036363636363636364,
+      "ece5": 0.020187324451028946,
+      "ece10": 0.02736010275240704,
+      "ece15": 0.020930383893071423,
+      "ece30": 0.027597745628475556
+    },
+    "fit": {
+      "fit_seconds": 0.0023963500000263593
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "NB",
+    "params": {
+      "alpha": 10.0
+    },
+    "selection": {
+      "accuracy": 0.32,
+      "macro_f1": 0.16672054223149116,
+      "mae": 1.0581818181818181,
+      "severe": 0.2872727272727273,
+      "nll": 1.5572594565749527,
+      "brier": 0.7795921626281267,
+      "rps": 0.1757128630891812,
+      "central_fraction": 0.0,
+      "ece5": 0.018008942263294636,
+      "ece10": 0.04068884538816558,
+      "ece15": 0.018008942263294594,
+      "ece30": 0.04336234750644961
+    },
+    "fit": {
+      "fit_seconds": 0.002351002000068547
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "Cumulative",
+    "params": {
+      "C": 1,
+      "monotonic_repair": "cumulative_minimum"
+    },
+    "selection": {
+      "accuracy": 0.34,
+      "macro_f1": 0.22501734038319404,
+      "mae": 0.9781818181818182,
+      "severe": 0.24727272727272728,
+      "nll": 1.4886941081791563,
+      "brier": 0.7507690011434601,
+      "rps": 0.16003685782778654,
+      "central_fraction": 0.09090909090909091,
+      "ece5": 0.014530315913930926,
+      "ece10": 0.015145146677240956,
+      "ece15": 0.025119661210543754,
+      "ece30": 0.02999393155960957
+    },
+    "fit": {
+      "fit_seconds": 0.13277930499998547,
+      "iterations": [
+        26,
+        20,
+        44,
+        25
+      ]
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP1",
+    "params": {
+      "C": 1,
+      "lambda": 0.1,
+      "power": 1
+    },
+    "selection": {
+      "accuracy": 0.32181818181818184,
+      "macro_f1": 0.23826856224803117,
+      "mae": 1.018181818181818,
+      "severe": 0.2636363636363636,
+      "nll": 1.494233759332218,
+      "brier": 0.7552670679213604,
+      "rps": 0.16105870542619868,
+      "central_fraction": 0.07636363636363637,
+      "ece5": 0.017548821345711396,
+      "ece10": 0.024660421458396625,
+      "ece15": 0.029669089435096715,
+      "ece30": 0.04897962617681395
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 78,
+      "objective": 1.260708526783214,
+      "max_abs_gradient": 2.3211433299378802e-06,
+      "fit_seconds": 0.3453860839999834
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP1",
+    "params": {
+      "C": 1,
+      "lambda": 0.5,
+      "power": 1
+    },
+    "selection": {
+      "accuracy": 0.31636363636363635,
+      "macro_f1": 0.2293115345581546,
+      "mae": 1.0254545454545454,
+      "severe": 0.26545454545454544,
+      "nll": 1.4908867283002676,
+      "brier": 0.7544477797964061,
+      "rps": 0.16035072729783514,
+      "central_fraction": 0.08181818181818182,
+      "ece5": 0.032375626752045875,
+      "ece10": 0.03896437070244125,
+      "ece15": 0.040756561369645325,
+      "ece30": 0.043530213533087586
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 74,
+      "objective": 1.369867901032184,
+      "max_abs_gradient": 1.3010760798830567e-06,
+      "fit_seconds": 0.44725137999989784
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP1",
+    "params": {
+      "C": 1,
+      "lambda": 1.0,
+      "power": 1
+    },
+    "selection": {
+      "accuracy": 0.31636363636363635,
+      "macro_f1": 0.22699695586880395,
+      "mae": 1.029090909090909,
+      "severe": 0.2672727272727273,
+      "nll": 1.4881537533200584,
+      "brier": 0.7539328847592651,
+      "rps": 0.15965260535873238,
+      "central_fraction": 0.08727272727272728,
+      "ece5": 0.04090761144724982,
+      "ece10": 0.044883816227387414,
+      "ece15": 0.047139388848337876,
+      "ece30": 0.06155710996942216
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 83,
+      "objective": 1.5024638154902437,
+      "max_abs_gradient": 8.760810946227827e-07,
+      "fit_seconds": 0.345140001000118
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP1",
+    "params": {
+      "C": 1,
+      "lambda": 2.0,
+      "power": 1
+    },
+    "selection": {
+      "accuracy": 0.3181818181818182,
+      "macro_f1": 0.22698757743954764,
+      "mae": 1.02,
+      "severe": 0.26181818181818184,
+      "nll": 1.4859784126681164,
+      "brier": 0.7540626899165478,
+      "rps": 0.15868515645172457,
+      "central_fraction": 0.1,
+      "ece5": 0.05945608316986646,
+      "ece10": 0.059456083169866496,
+      "ece15": 0.06270755606031336,
+      "ece30": 0.06700464699624915
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 75,
+      "objective": 1.7561802104546547,
+      "max_abs_gradient": 1.7920947871633217e-06,
+      "fit_seconds": 0.30726994499991633
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP2",
+    "params": {
+      "C": 1,
+      "lambda": 0.1,
+      "power": 2
+    },
+    "selection": {
+      "accuracy": 0.32181818181818184,
+      "macro_f1": 0.23826856224803117,
+      "mae": 1.018181818181818,
+      "severe": 0.2636363636363636,
+      "nll": 1.4942387468345748,
+      "brier": 0.7552704249768778,
+      "rps": 0.16109446113167586,
+      "central_fraction": 0.07636363636363637,
+      "ece5": 0.01738631240354618,
+      "ece10": 0.02418415187558802,
+      "ece15": 0.029168390648899173,
+      "ece30": 0.04627454093954668
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 74,
+      "objective": 1.24851838816405,
+      "max_abs_gradient": 2.35610071275999e-06,
+      "fit_seconds": 0.30893912600004114
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP2",
+    "params": {
+      "C": 1,
+      "lambda": 0.5,
+      "power": 2
+    },
+    "selection": {
+      "accuracy": 0.3145454545454546,
+      "macro_f1": 0.22444119827617542,
+      "mae": 1.029090909090909,
+      "severe": 0.2672727272727273,
+      "nll": 1.4908095450725871,
+      "brier": 0.7544004800042182,
+      "rps": 0.16051264578469315,
+      "central_fraction": 0.08363636363636363,
+      "ece5": 0.02996666854589226,
+      "ece10": 0.03489173718142052,
+      "ece15": 0.03908375007005851,
+      "ece30": 0.04390381117762322
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 69,
+      "objective": 1.3095489520551664,
+      "max_abs_gradient": 5.994022056274723e-07,
+      "fit_seconds": 0.29359173900002133
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP2",
+    "params": {
+      "C": 1,
+      "lambda": 1.0,
+      "power": 2
+    },
+    "selection": {
+      "accuracy": 0.31272727272727274,
+      "macro_f1": 0.21675696051473192,
+      "mae": 1.0363636363636364,
+      "severe": 0.27090909090909093,
+      "nll": 1.4877754247957884,
+      "brier": 0.7536899678334864,
+      "rps": 0.15993691466779347,
+      "central_fraction": 0.09090909090909091,
+      "ece5": 0.0399071365246391,
+      "ece10": 0.044387121735847405,
+      "ece15": 0.04460775167029493,
+      "ece30": 0.05188475385459175
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 70,
+      "objective": 1.3833817973070055,
+      "max_abs_gradient": 4.511809381332332e-07,
+      "fit_seconds": 0.3002761800000826
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "DP2",
+    "params": {
+      "C": 1,
+      "lambda": 2.0,
+      "power": 2
+    },
+    "selection": {
+      "accuracy": 0.31636363636363635,
+      "macro_f1": 0.2216571884120399,
+      "mae": 1.02,
+      "severe": 0.26181818181818184,
+      "nll": 1.484595453156083,
+      "brier": 0.7531109358970576,
+      "rps": 0.1591266210452361,
+      "central_fraction": 0.10727272727272727,
+      "ece5": 0.04733710026781496,
+      "ece10": 0.05074191944990107,
+      "ece15": 0.049550533613118994,
+      "ece30": 0.07745989159584465
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 77,
+      "objective": 1.5240682074858738,
+      "max_abs_gradient": 5.221135284253082e-07,
+      "fit_seconds": 0.31724269400001504
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "OLL",
+    "params": {
+      "C": 1,
+      "alpha": 1,
+      "distance": "raw"
+    },
+    "selection": {
+      "accuracy": 0.3490909090909091,
+      "macro_f1": 0.21608931934355663,
+      "mae": 0.9290909090909091,
+      "severe": 0.22,
+      "nll": 9.004800631148305,
+      "brier": 0.8234364726883584,
+      "rps": 0.173573175466525,
+      "central_fraction": 0.11090909090909092,
+      "ece5": 0.10900647724697131,
+      "ece10": 0.11007798318871985,
+      "ece15": 0.11049344846550162,
+      "ece30": 0.11209546686719082
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 81,
+      "objective": 1.2691041968462191,
+      "max_abs_gradient": 8.028914838455748e-07,
+      "fit_seconds": 0.2824632340000335
+    }
+  },
+  {
+    "budget": "2000",
+    "seed": 123,
+    "family": "LS",
+    "params": {
+      "C": 1,
+      "smoothing": 0.1
+    },
+    "selection": {
+      "accuracy": 0.3181818181818182,
+      "macro_f1": 0.23285796613717405,
+      "mae": 1.0236363636363637,
+      "severe": 0.26545454545454544,
+      "nll": 1.4980878947282443,
+      "brier": 0.7560797918430731,
+      "rps": 0.16225834737178627,
+      "central_fraction": 0.07090909090909091,
+      "ece5": 0.012331341534119954,
+      "ece10": 0.020046795199763687,
+      "ece15": 0.016984571478708087,
+      "ece30": 0.027072981167638746
+    },
+    "fit": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 62,
+      "objective": 1.3044794188696707,
+      "max_abs_gradient": 8.616257753276402e-07,
+      "fit_seconds": 0.24472562500000095
+    }
+  }
+]

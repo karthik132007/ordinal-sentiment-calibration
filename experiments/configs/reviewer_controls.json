@@ -1,0 +1,8 @@
+{
+  "CE_selection": "MAE_then_NLL",
+  "DP2_selection": "NLL",
+  "fixed_quadratic_lambda": 0.5,
+  "OLL_C_grid": [0.01, 0.1, 1, 4, 16],
+  "OLL_selection": "NLL",
+  "purpose": "Secondary controls for selection criterion and loss-scale regularization confounding"
+}

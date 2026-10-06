@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{castagnos2022}
+Fran{\c{c}}ois Castagnos, Martin Mihelich, and Charles Dognin.
+\newblock A simple log-based loss function for ordinal text classification.
+\newblock In {\em Proceedings of COLING}, pages 4604--4609, 2022.
+
+\bibitem{guo2017}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger.
+\newblock On calibration of modern neural networks.
+\newblock In {\em Proceedings of ICML}, volume~70 of {\em PMLR}, pages
+  1321--1330, 2017.
+
+\bibitem{hou2016}
+Le~Hou, Chen-Ping Yu, and Dimitris Samaras.
+\newblock Squared earth mover's distance-based loss for training deep neural
+  networks.
+\newblock arXiv:1611.05916, 2016.
+
+\bibitem{keung2020}
+Phillip Keung, Yichao Lu, Gy{\"o}rgy Szarvas, and Noah~A. Smith.
+\newblock The multilingual amazon reviews corpus.
+\newblock In {\em Proceedings of EMNLP}, pages 4563--4568, 2020.
+
+\bibitem{muller2019}
+Rafael M{\"u}ller, Simon Kornblith, and Geoffrey~E. Hinton.
+\newblock When does label smoothing help?
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem{socher2013}
+Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher~D. Manning,
+  Andrew Ng, and Christopher Potts.
+\newblock Recursive deep models for semantic compositionality over a sentiment
+  treebank.
+\newblock In {\em Proceedings of EMNLP}, pages 1631--1642, 2013.
+
+\end{thebibliography}

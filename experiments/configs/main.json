@@ -1,0 +1,12 @@
+{
+  "seeds": [42, 123, 999],
+  "budgets": [2000, "full"],
+  "C_grid": [1, 4, 16],
+  "lambda_grid": [0.1, 0.5, 1.0, 2.0],
+  "nb_alpha_grid": [0.1, 1.0, 10.0],
+  "max_features": 12000,
+  "min_df": 2,
+  "maxiter": 400,
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 2026
+}

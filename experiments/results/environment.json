@@ -1,0 +1,49 @@
+{
+  "started": "2026-10-06T14:06:07.376695+05:30",
+  "python": "3.14.7",
+  "platform": "Linux-7.2.8-arch1-2-x86_64-with-glibc2.44",
+  "cpu": "",
+  "logical_cpus": 12,
+  "device": "CPU",
+  "blas_threads": 1,
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2"
+  },
+  "config": {
+    "seeds": [
+      42,
+      123,
+      999
+    ],
+    "budgets": [
+      2000,
+      "full"
+    ],
+    "C_grid": [
+      1,
+      4,
+      16
+    ],
+    "lambda_grid": [
+      0.1,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "nb_alpha_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "max_features": 12000,
+    "min_df": 2,
+    "maxiter": 400,
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 2026
+  },
+  "protocol_sha256": "8d886afe02e423f8235dcc696ba68843bac9b5d2ce0ee6b73f3750397b11bfa0"
+}

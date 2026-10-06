@@ -1,0 +1,44 @@
+{
+  "models": {
+    "CE": {
+      "C": 1
+    },
+    "NB": {
+      "alpha": 1.0
+    },
+    "Cumulative": {
+      "C": 1,
+      "monotonic_repair": "cumulative_minimum"
+    },
+    "DP1": {
+      "C": 1,
+      "lambda": 0.1,
+      "power": 1
+    },
+    "DP2": {
+      "C": 1,
+      "lambda": 0.1,
+      "power": 2
+    },
+    "OLL": {
+      "C": 1,
+      "alpha": 1,
+      "distance": "raw"
+    },
+    "LS": {
+      "C": 1,
+      "smoothing": 0.1
+    }
+  },
+  "temperatures": {
+    "CE": 0.8379342816939399,
+    "DP1": 0.847842709049768,
+    "DP2": 0.8450008431874827,
+    "OLL": 19.999905248921124,
+    "LS": 0.7487718503656509
+  },
+  "n_train": 2000,
+  "n_selection": 550,
+  "n_calibration": 550,
+  "n_features": 5573
+}

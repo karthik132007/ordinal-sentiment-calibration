@@ -1,0 +1,138 @@
+{
+  "source_url": "https://nlp.stanford.edu/~socherr/stanfordSentimentTreebank.zip",
+  "archive_sha256": "3f5209483b46bbf129cacbbbe6ae02fe780407034f61cf6342b7833257c3f1db",
+  "original_counts": {
+    "train": 8544,
+    "dev": 1101,
+    "test": 2210
+  },
+  "conflicting_text_groups": 0,
+  "excluded": [
+    {
+      "id": 6902,
+      "text": "No. .",
+      "label": 1,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 6314,
+      "text": "I like it .",
+      "label": 3,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 3947,
+      "text": "For a film that 's being advertised as a comedy , Sweet Home Alabama is n't as funny as you 'd hoped .",
+      "label": 1,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 11670,
+      "text": "See it .",
+      "label": 4,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 10984,
+      "text": "True Hollywood Story .",
+      "label": 2,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 7451,
+      "text": "Hey Arnold !",
+      "label": 2,
+      "split": "dev",
+      "reason": "duplicate"
+    },
+    {
+      "id": 11484,
+      "text": "Hey Arnold !",
+      "label": 2,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 9891,
+      "text": "Too bad .",
+      "label": 1,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 10289,
+      "text": "What 's next ?",
+      "label": 3,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 11594,
+      "text": "What 's next ?",
+      "label": 3,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 10410,
+      "text": "Every joke is repeated at least four times .",
+      "label": 1,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 11569,
+      "text": "` Stock up on silver bullets for director Neil Marshall 's intense freight train of a film . '",
+      "label": 3,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 11616,
+      "text": "One of the worst movies of the year .",
+      "label": 0,
+      "split": "train",
+      "reason": "duplicate"
+    },
+    {
+      "id": 11807,
+      "text": "... a pretentious mess ...",
+      "label": 0,
+      "split": "train",
+      "reason": "duplicate"
+    }
+  ],
+  "clean_counts": {
+    "train": 8531,
+    "dev": 1100,
+    "test": 2210
+  },
+  "class_counts": {
+    "train": [
+      1090,
+      2214,
+      1622,
+      2318,
+      1287
+    ],
+    "dev": [
+      139,
+      289,
+      228,
+      279,
+      165
+    ],
+    "test": [
+      279,
+      633,
+      389,
+      510,
+      399
+    ]
+  }
+}

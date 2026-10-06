@@ -1,0 +1,7 @@
+                   accuracy       mae     ece15        nll
+                       mean      mean      mean       mean
+budget method                                             
+full   CE          0.407692  0.829864  0.033740   1.375394
+       DP2         0.410407  0.803167  0.021393   1.358837
+       Cumulative  0.411765  0.783258  0.025292   1.370242
+       OLL         0.383710  0.790498  0.120734  11.712994
