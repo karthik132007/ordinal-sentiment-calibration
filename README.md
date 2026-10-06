@@ -76,3 +76,7 @@ The built-in source editor can open the manuscript, but this paper uses external
 ## Interpretation and evidence boundaries
 
 The original plan predates training; `protocol_sha256.txt` preserves its hash. `protocol_amendments.md` documents a numerical optimizer continuation. Secondary reviewer controls are explicitly post-primary. Seeds randomize subset/development selection, not initialization; identical full-budget fits can have zero SD. Bootstrap intervals condition on fixed models and resample the common test sentences. No independent-corpus replication, faculty endorsement, external review, submission, or new loss invention is claimed. Stored pickle files are generated locally; only load these trusted artifacts.
+
+## License
+
+The original project code and documentation are licensed under the [MIT License](LICENSE). Third-party materials, including the Stanford Sentiment Treebank data, the candidate-directions PDF, and Tectonic, retain their respective licenses and terms; the MIT license does not relicense those materials.
