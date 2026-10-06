@@ -1,12 +1,29 @@
 # Ordinal sentiment error and probability calibration
 
+<div align="center">
+  <h2>Research Paper</h2>
+  <p><strong>Ordinal Error and Probability Calibration in Lightweight Five-Level Sentiment Classification</strong></p>
+  <p>9-page research paper &nbsp; · &nbsp; Executed experiments &nbsp; · &nbsp; Reproducible results</p>
+  <p>
+    <a href="./paper.pdf"><strong>Read the paper (PDF)</strong></a>
+    &nbsp; | &nbsp;
+    <a href="./paper/paper.tex">LaTeX source</a>
+    &nbsp; | &nbsp;
+    <a href="./research/results_analysis.md">Results analysis</a>
+  </p>
+  <p><sub>The complete paper is available as <a href="./paper.pdf"><code>paper.pdf</code></a> in the repository root.</sub></p>
+</div>
+
+---
+
 Completed CPU research study selected from candidate 10 in `Sentiment Analysis Research Directions.pdf`. Research question: **does an expected ordinal distance penalty reduce severe sentiment errors and improve probability calibration in sparse five-level sentiment classifiers?**
 
 The answer is qualified: full-budget quadratic penalization improves MAE from 0.830 to 0.803 and severe errors from 18.82% to 17.19%, but cumulative logistic regression achieves lower MAE. Calibration does not improve consistently at the 2,000-example budget. This is one SST-5 corpus, not a transformer or domain-transfer experiment. All findings come from executed code and retained outputs.
 
 ## Outputs
 
-- `paper/paper.pdf`, `paper/paper.tex`, and `paper/references.bib`: compiled manuscript and editable sources.
+- [`paper.pdf`](./paper.pdf): complete compiled research paper, available directly in the repository root.
+- `paper/paper.tex` and `paper/references.bib`: editable LaTeX sources; `paper/paper.pdf` is the compiler output matching the root PDF.
 - `research/`: candidate evaluation, plan, source extraction, references, amendments, experiment log, analysis, and internal reviewer report.
 - `src/`: official-data preparation, analytic loss implementations, experiment runners, numerical checks, analysis, and final replay audit.
 - `experiments/configs/`: primary protocol and secondary control settings.
@@ -49,6 +66,8 @@ uv run --no-sync python -m src.reproduce
 
 This runs numerical validation, primary experiments, secondary controls, the OLL diagnostic, figure/table/macro generation, experiment logging, saved-model/metric replay, and LaTeX compilation. Completed runs resume from their saved artifacts. To retrain without deleting the existing evidence, first copy the repository into a new directory, remove only that copy's `experiments/results/budget-*` directories, and run the same command. The original fits included 102 primary and 72 secondary candidates; these counts are recorded in the log. The study fits small sparse heads rather than pretrained encoders.
 
+The reproduction command also refreshes the root `paper.pdf` from the compiled output.
+
 Individual stages:
 
 ```bash
@@ -69,6 +88,7 @@ Tectonic 0.17.0 was downloaded from the official `tectonic-typesetting/tectonic`
 ```bash
 XDG_CACHE_HOME="$PWD/tmp/tex-cache" tools/tectonic/tectonic \
   --keep-logs --keep-intermediates --outdir paper paper/paper.tex
+cp paper/paper.pdf paper.pdf
 ```
 
 The built-in source editor can open the manuscript, but this paper uses external figures, generated tables, and BibTeX. Export/verification uses the portable compiler; a queued editor preview is not compilation evidence. `paper/build_stdout.log` and `paper/paper.log` record the build. PDF layout is visually reviewed after rendering with `pdftoppm`; the final verification report records the outcome.

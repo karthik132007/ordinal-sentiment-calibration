@@ -1,5 +1,6 @@
 """One-command reproduction after environment setup; completed runs are resumed."""
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -19,7 +20,8 @@ def main():
     env["XDG_CACHE_HOME"] = str(root / "tmp/tex-cache")
     subprocess.run([str(compiler), "--keep-logs", "--keep-intermediates", "--outdir", "paper", "paper/paper.tex"],
                    env=env, check=True)
-    print("Reproduction complete: paper/paper.pdf")
+    shutil.copy2(root / "paper/paper.pdf", root / "paper.pdf")
+    print("Reproduction complete: paper.pdf (also available at paper/paper.pdf)")
 
 if __name__ == "__main__":
     main()

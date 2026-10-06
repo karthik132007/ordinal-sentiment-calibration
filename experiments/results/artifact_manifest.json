@@ -6,7 +6,7 @@
   "src/run_controls.py": "0630c8c36408a4c72384e4d719bf442903f352bfb71e39ef187fea755418f8c2",
   "src/validate.py": "a39b362f0b093e5591d9aeaa572c6b9d61b9f05cb1611d9d6d4df79167bf3141",
   "src/verify_results.py": "b1da2a3f1b93f9cca2ca7a3eb591ed31de0475d61dcda0140815576f142dcfd6",
-  "src/reproduce.py": "28c6dad01b82b83800897476df1619014899261a25efd20342e728fbefb04477",
+  "src/reproduce.py": "064b56672c241e41aca5d40e18bff556a542a036e849ee853f64abbade3e6acd",
   "src/analyze.py": "54a13d3a4e89f8d91cf782aef16c07ff7a64b8b7c1b4f0c90ba50a0b2733c919",
   "src/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "src/evaluation/metrics.py": "d54845885b2e4fee1b4ad7001459af04e61bba59c532efa63ba1af59c451ffed",
@@ -43,5 +43,7 @@
   "figures/confusions.png": "39f5f02c481a0d5872f5c7ac3ae059660632da9dd63139323af3f4df0653b2fb",
   "figures/reliability.pdf": "78206d14b2fede328846824b0093f27b82db76b7750c27873fac9e002dec1095",
   "figures/tradeoffs.pdf": "8121612ca6b58de0d19bbedc15e00671cdcd9f18545a882dd8abf71aab85865c",
-  "figures/tradeoffs.png": "ea6a3dcf42ed207caa4943fe9cbfb6095876e5a43e2258cdb284030adffee87f"
+  "figures/tradeoffs.png": "ea6a3dcf42ed207caa4943fe9cbfb6095876e5a43e2258cdb284030adffee87f",
+  "README.md": "8d1908043d0ce15f1fdcaff45bd85a424eebf0244b1864e6432e43287ef3f6de",
+  "paper.pdf": "b39493dcd2158be37bf95e5553a36caf3827544228c6a8dedeab343b4c3bb60d"
 }
