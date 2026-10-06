@@ -4,7 +4,7 @@ Completed 6 October 2026.
 
 - All required research notes, sources, results, figures, README, and LaTeX/PDF artifacts exist.
 - Final PDF: 9 pages, including references; successfully compiled with Tectonic 0.17.0 and BibTeX.
-- All nine rendered pages were inspected. Final reproduction's page images exactly match those inspected. Figures and tables are legible and within the margins.
+- All nine rendered pages were inspected. The author revision was compiled and all nine updated pages were reviewed. Figures and tables are legible and within the margins.
 - No overfull boxes or unresolved citations/references remain. Minor underfull line-spacing warnings remain and do not cause clipping or overlap.
 - 108 metric rows were recalculated; 66 saved models reproduced their probabilities exactly (maximum absolute difference 0.0).
 - Six metrics were independently recalculated, all generated numerical macros were checked, and every used citation key resolves.
@@ -13,6 +13,8 @@ Completed 6 October 2026.
 - No TODO/TBD/FIXME placeholders remain in the manuscript. No experiments, datasets, citations, or quantitative findings were invented.
 - Revised claims retain the single-corpus, sparse-model, correlated-seed, bin-sensitivity, and limited-tuning boundaries. The reviewer report's fixable weaknesses were addressed through executed controls, diagnostics, and rewriting.
 
-PDF SHA-256: `b39493dcd2158be37bf95e5553a36caf3827544228c6a8dedeab343b4c3bb60d`.
+PDF SHA-256: `6421c847aa5db87fa2b84e29434d2a852176851bbd3f9e5d99ce605c48f98b00`.
 
 Machine-readable audit: experiments/results/final_verification.json. File integrity manifest: experiments/results/artifact_manifest.json.
+
+Author details updated to Karthikeya Kumar, Aditya University, Dept of AIML, karthikeya2k7@zohomail.in. Both PDF copies match byte for byte; experimental results are unchanged.

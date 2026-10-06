@@ -35,7 +35,7 @@
     "experiments/results/budget-full_seed-999/controls_predictions.npz": "87f92f5b46265655eb5ae235597848b55c90dda7f1814f298f1d63ed3956f068"
   },
   "pdf_pages": 9,
-  "pdf_sha256": "b39493dcd2158be37bf95e5553a36caf3827544228c6a8dedeab343b4c3bb60d",
+  "pdf_sha256": "6421c847aa5db87fa2b84e29434d2a852176851bbd3f9e5d99ce605c48f98b00",
   "visually_inspected_pages": [
     1,
     2,
@@ -47,8 +47,14 @@
     8,
     9
   ],
-  "latest_render_identical_to_inspected": true,
   "reproduction_command_passed": true,
   "latex_overfull_boxes": 0,
-  "latex_unresolved_references": 0
+  "latex_unresolved_references": 0,
+  "author_revision": {
+    "name": "Karthikeya Kumar",
+    "affiliation": "Aditya University, Dept of AIML",
+    "email": "karthikeya2k7@zohomail.in",
+    "compiled": true,
+    "visual_review": "All nine pages reviewed after the author update"
+  }
 }

@@ -17,9 +17,9 @@
   "src/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "paper/numbers.tex": "225f2a57c0cde7eaa5b5846ef9aae4c718e475c2cbeebc9b28fbfc8cecad0ff9",
   "paper/main_table.tex": "ad34ff9828c8439d51cebde8f3f7921810cd75d02fbe417c327751e403f53105",
-  "paper/paper.tex": "2d2692d6d32fcfaca05f72f8eac3a22438fccefd0d8bf2b6e05d1352838f0849",
+  "paper/paper.tex": "60266fc1f14fea9c7e1261304e8533d0e0a475f3f466b189b9b29ce5ef04cb4d",
   "paper/bootstrap_table.tex": "540834f377207cc01aea3794ed960bac5b507f5cbdad6b6acce420b5c983e19d",
-  "paper/paper.pdf": "b39493dcd2158be37bf95e5553a36caf3827544228c6a8dedeab343b4c3bb60d",
+  "paper/paper.pdf": "6421c847aa5db87fa2b84e29434d2a852176851bbd3f9e5d99ce605c48f98b00",
   "paper/paper.bbl": "0fe153a9d1bb61ebc8ac06bf0bb2c1a2f1135f0051976909667b40098f1ef059",
   "paper/low_table.tex": "9bf8ea8fb1fcfb920b7785103f12f1e2f6c5260d9909142f7845509e13f26a72",
   "paper/controls_table.tex": "c97f289c93255e8d8e06078b27691cd9bc428fdf48b35f128e6cfa9dea996966",
@@ -45,5 +45,6 @@
   "figures/tradeoffs.pdf": "8121612ca6b58de0d19bbedc15e00671cdcd9f18545a882dd8abf71aab85865c",
   "figures/tradeoffs.png": "ea6a3dcf42ed207caa4943fe9cbfb6095876e5a43e2258cdb284030adffee87f",
   "README.md": "8d1908043d0ce15f1fdcaff45bd85a424eebf0244b1864e6432e43287ef3f6de",
-  "paper.pdf": "b39493dcd2158be37bf95e5553a36caf3827544228c6a8dedeab343b4c3bb60d"
+  "paper.pdf": "6421c847aa5db87fa2b84e29434d2a852176851bbd3f9e5d99ce605c48f98b00",
+  "research/final_verification.md": "4ac23532670bbf5064ded974b119b4b532d652a9fefc2b7b0126fe4fb412d730"
 }
